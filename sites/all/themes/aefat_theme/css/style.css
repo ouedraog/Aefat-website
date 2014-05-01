@@ -592,12 +592,13 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .top-nav ul.top-menu > li > a {
-    border: 1px solid #efefef;
+   // border: 1px solid #efefef;
     border-radius: 4px;
     -webkit-border-radius: 4px;
-    padding: 6px;
+   // padding: 6px;
     background: none;
     margin-right: 0;
+    margin-top: 8px ;
 }
 .top-nav ul.top-menu > li {
     margin-left: 10px;
@@ -1086,7 +1087,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     background-color: #C7CBD6;
     bottom: 0px;
     content: "";
-    left: 33.3%;
+    left: -30px;
     position: absolute;
     top: 0;
     width: 2px;
@@ -2954,7 +2955,8 @@ ul.amounts li {
     border:  none;
     transition:background-color 0.25s ease 0s;
     -moz-transition:background-color 0.25s ease 0s;
-    -webkit-transition:background-color 0.25s ease 0s;
+    -webkit-transition:background-color 0.25s ease 0s;  
+   
 }
 
 .carousel-indicators .active {
@@ -2965,11 +2967,7 @@ ul.amounts li {
 }
 
 .carousel-indicators.out {
-    bottom: -5px;
-}
-
-.carousel-indicators.out {
-    bottom: -5px;
+  margin-bottom: -42px;
 }
 
 .carousel-control {

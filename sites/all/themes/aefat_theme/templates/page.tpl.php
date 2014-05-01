@@ -144,9 +144,9 @@
                           <div class="log-arrow-up"></div>
                       </ul>
                   </li>
-                   <li class="dropdown">
-                      <a class="dropdown-toggle" href="contact">
-                          <i class="icon-edit blue tooltips " title="Contact"></i>
+                   <li class="">
+                      <a class="tooltips " title="Contact" href="contact">
+                          <i class="icon-edit blue "></i>
                           Contact
                       </a>
                   </li>
