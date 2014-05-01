@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+=======
+=======
+>>>>>>> e43da53b0fc3987ede37add52fa60d5f30369516
+######################
+## EPiServer Files
+######################
+*License.config
+<<<<<<< HEAD
+>>>>>>> e43da53b0fc3987ede37add52fa60d5f30369516
+=======
+>>>>>>> e43da53b0fc3987ede37add52fa60d5f30369516
