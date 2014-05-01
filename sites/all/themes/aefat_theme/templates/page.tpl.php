@@ -23,7 +23,7 @@
               <!-- settings start -->
               <li id="header_inbox_bar" class="dropdown">
                   <a class="dropdown-toggle" href="<?php print $front_page; ?>">
-                      <i class="icon-home"></i>
+                      <i class="icon-home orange"></i>
                   </a>  
               </li>
               <!-- settings end -->

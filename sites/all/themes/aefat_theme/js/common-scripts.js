@@ -48,13 +48,13 @@ $(function() {
                 'margin-left': '0px'
             });
             $('#sidebar').css({
-                'margin-left': '-210px'
+                'margin-left': '-18%'
             });
             $('#sidebar > ul').hide();
             $("#container").addClass("sidebar-closed");
         } else {
             $('#main-content').css({
-                'margin-left': '210px'
+                'margin-left': '18%'
             });
             $('#sidebar > ul').show();
             $('#sidebar').css({

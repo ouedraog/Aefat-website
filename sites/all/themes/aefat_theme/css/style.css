@@ -160,12 +160,16 @@ a, a:hover, a:focus {
     box-shadow: 0 4px #2bb4e8;
     float:left;
 }
+/*main content*/
 
+#main-content {
+    margin-left: 18%;
+}
 
 /*sidebar navigation*/
 
 #sidebar {
-    width: 210px;
+    width: 18%;
     height: 100%;
     position: fixed;
     padding-right: 10px;
@@ -324,11 +328,6 @@ ul.sidebar-menu li a.active i {
     font-size: 11px;
 }
 
-/*main content*/
-
-#main-content {
-    margin-left: 210px;
-}
 
 .header, .footer {
     min-height: 60px;
@@ -381,14 +380,14 @@ a.logo span {
 .notify-row {
     float: left;
     margin-top: 15px;
-    margin-left: 92px;
+    margin-left: 11%;
 }
 
 ul.top-menu > li > a {
     color: #666666;
     font-size: 16px;
     padding: 2px 6px;
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
 ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
@@ -1080,15 +1079,15 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     position: relative;
     table-layout: fixed;
     margin-left:15%;
-    width: 100%;
+    //width: 100%;
 }
 
 .timeline:before {
     background-color: #C7CBD6;
     bottom: 0px;
     content: "";
-    left: -30px;
     position: absolute;
+    margin-left:50%;
     top: 0;
     width: 2px;
     z-index: 0;
@@ -4661,4 +4660,7 @@ ul.top-menu > li > a.blue{
 }
 .form-required{
     color: red;
+}
+.orange{
+    color:#FF6C60;
 }
