@@ -4661,3 +4661,6 @@ ul.top-menu > li > a.blue{
 .region-page-top{
 	padding-bottom: 80px;
 }
+.form-required{
+    color: red;
+}

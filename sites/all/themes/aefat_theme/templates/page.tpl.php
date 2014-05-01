@@ -145,14 +145,10 @@
                       </ul>
                   </li>
                    <li class="dropdown">
-                      <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                      <a class="dropdown-toggle" href="contact">
                           <i class="icon-edit blue tooltips " title="Contact"></i>
                           Contact
-                          <b class="caret"></b>
                       </a>
-                      <ul class="dropdown-menu extended logout">
-                          <div class="log-arrow-up"></div>
-                      </ul>
                   </li>
               </ul>
           </div>
