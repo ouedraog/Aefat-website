@@ -1,16 +1,31 @@
-/*---LEFT BAR ACCORDION----*/
+
 $(function() {
-    $('#nav-accordion').dcAccordion({
-        eventType: 'click',
-        autoClose: true,
-        saveState: true,
-        disableLink: true,
-        speed: 'slow',
-        showCount: false,
-        autoExpand: true,
-        //        cookie: 'dcjq-accordion-1',
-        classExpand: 'dcjq-current-parent'
-    });
+    function responsiveView() {
+        var wSize = $(window).width();
+        if (wSize <= 768) {
+            $('#container').addClass('sidebar-close');
+            $('#sidebar > ul').hide();
+            $("#sidebar").removeClass("white-bg").addClass("black-bg");
+            $('#nav-accordion').dcAccordion({
+                        eventType: 'click',
+                autoClose: true,
+                saveState: true,
+                disableLink: true,
+                speed: 'slow',
+                showCount: false,
+                autoExpand: true,
+                //        cookie: 'dcjq-accordion-1',
+                classExpand: 'dcjq-current-parent'
+            });
+        }
+        
+        if (wSize > 768) {
+            $('#container').removeClass('sidebar-close');
+            $('#sidebar > ul').show();
+        }
+    }
+    $(window).on('load', responsiveView);
+    $(window).on('resize', responsiveView);
     
 
     //  sidebar dropdown menu auto scrolling
@@ -24,23 +39,6 @@ $(function() {
             $("#sidebar").scrollTo("+="+Math.abs(diff),500);
     });
 
-  
-    $(function() {
-        function responsiveView() {
-            var wSize = $(window).width();
-            if (wSize <= 768) {
-                $('#container').addClass('sidebar-close');
-                $('#sidebar > ul').hide();
-            }
-
-            if (wSize > 768) {
-                $('#container').removeClass('sidebar-close');
-                $('#sidebar > ul').show();
-            }
-        }
-        $(window).on('load', responsiveView);
-        $(window).on('resize', responsiveView);
-    });
 
     $('.icon-reorder').click(function () {
         if ($('#sidebar > ul').is(":visible") === true) {
